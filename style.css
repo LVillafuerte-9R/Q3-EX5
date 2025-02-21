@@ -1,0 +1,58 @@
+body {
+    background-color: royalblue;
+    color: black;
+}
+
+.container {
+    margin-top: 30px;
+    background-color: skyblue; /* White background for the container */
+    padding: 20px; /* Some padding for the content */
+    border-radius: 10px; /* Optional: rounded corners for the container */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    background-color: #A9B5DF;
+}
+
+h1 {
+    text-align: center;
+}    
+
+/* Center the details element */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/* Style the details box */
+details {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the summary text */
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background: #3674B5;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the paragraph inside details */
+details p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
